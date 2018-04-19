@@ -38,11 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
-=======
   m_IndirectSpecularColor: {r: 0.4482453, g: 0.49827206, b: 0.5755818, a: 1}
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -117,115 +113,64 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &89633950
+--- !u!1 &52403998
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 89633956}
-  - component: {fileID: 89633955}
-  - component: {fileID: 89633954}
-  - component: {fileID: 89633953}
-  - component: {fileID: 89633952}
-  - component: {fileID: 89633951}
+  - component: {fileID: 52403999}
+  - component: {fileID: 52404000}
   m_Layer: 0
-  m_Name: Camera
-  m_TagString: MainCamera
+  m_Name: CamLight
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &89633951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c4a98117a59d014ca414061eafd3065, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  translationSensitivity: 0.1
-  zoomSensitiviy: 1
-  rotationSensitiviry: 2
-  mouseHorizontalAxisName: Mouse X
-  mouseVerticalAxisName: Mouse Y
-  scrollAxisName: Mouse ScrollWheel
---- !u!81 &89633952
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_Enabled: 1
---- !u!92 &89633953
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_Enabled: 1
---- !u!124 &89633954
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_Enabled: 1
---- !u!20 &89633955
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.01
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &89633956
+--- !u!4 &52403999
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 89633950}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.02, y: 0.61, z: -0.08}
+  m_GameObject: {fileID: 52403998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
-=======
+  m_Father: {fileID: 1126146157}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!108 &52404000
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 52403998}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -263,7 +208,6 @@ Transform:
   m_Father: {fileID: 1040246805}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
 --- !u!1 &240180768
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,7 +218,7 @@ GameObject:
   - component: {fileID: 240180770}
   - component: {fileID: 240180769}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: SceneLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -290,12 +234,12 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.7
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -309,7 +253,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
@@ -322,46 +266,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 240180768}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-=======
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
---- !u!1 &327937692
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 327937693}
-  m_Layer: 0
-  m_Name: Waypoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &327937693
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 327937692}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.176, z: 1.988}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1346245762}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &544296116
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,12 +347,7 @@ Transform:
   m_Father: {fileID: 191519491}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
---- !u!1 &657600605
-=======
 --- !u!1 &626357164
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -459,66 +365,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
---- !u!23 &657600606
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 657600605}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!135 &657600607
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 657600605}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &657600608
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 657600605}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &657600609
-Transform:
-=======
 --- !u!224 &626357165
 RectTransform:
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -763,143 +611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 204b4f1ff68300b48ab088c8c8c06c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  ip_address: 
---- !u!1 &1280459080
-=======
---- !u!1 &1015672770
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1280459082}
-  - component: {fileID: 1280459081}
-  m_Layer: 0
-  m_Name: TrajectoryVisualizer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_IsActive: 1
---- !u!114 &1280459081
-=======
-  m_IsActive: 0
---- !u!33 &1015672771
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1015672770}
-  m_Mesh: {fileID: 1983682461}
---- !u!23 &1015672772
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1015672770}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!114 &1015672773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1015672770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1770992566, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1015672774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1015672770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1015672775
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1280459080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad799ccfac1e84d4baebdb98efade6ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  robot: {fileID: 1894611818}
-  armPrefab: {fileID: 1587120634647518, guid: d5d92c326c33efc4c8b83ec8736dfeaf, type: 2}
-  predictable: 1
-  traj_num: 4
---- !u!4 &1280459082
-=======
-  mTrackableName: '--- EMPTY ---'
-  mPreserveChildSize: 0
-  mInitializedInEditor: 1
-  mDataSetPath: '--- EMPTY ---'
-  mExtendedTracking: 0
-  mAspectRatio: 1
-  mImageTargetType: 0
-  mWidth: 0.12065
-  mHeight: 0.12065
---- !u!4 &1015672776
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1280459080}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-=======
-  m_LocalPosition: {x: -0.872, y: 0, z: 0.993}
-  m_LocalScale: {x: 0.12065, y: 0.12065, z: 0.12065}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1040246802
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,9 +673,6 @@ Transform:
   - {fileID: 191519491}
   - {fileID: 1511480367}
   m_Father: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_RootOrder: 11
-=======
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042786906
@@ -1117,7 +825,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103265089
 GameObject:
@@ -1147,69 +854,29 @@ Transform:
   - {fileID: 840131883}
   m_Father: {fileID: 191519491}
   m_RootOrder: 0
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1419868039
-Prefab:
+--- !u!1 &1126146152
+GameObject:
   m_ObjectHideFlags: 0
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 196258, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1419868040 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 196258, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!1 &1419868041 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 150760, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!1 &1419868042 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 129746, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!114 &1419868043
-=======
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1126146157}
+  - component: {fileID: 1126146156}
+  - component: {fileID: 1126146155}
+  - component: {fileID: 1126146154}
+  - component: {fileID: 1126146153}
+  m_Layer: 0
+  m_Name: ARCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1126146153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1126146152}
@@ -1219,27 +886,16 @@ GameObject:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1126146154
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_GameObject: {fileID: 1419868040}
-  m_Enabled: 1
-=======
   m_GameObject: {fileID: 1126146152}
   m_Enabled: 0
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a984c5ce459484c47ba6fdd693deb782, type: 3}
+  m_Script: {fileID: -1826476478, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  CursorOnHolograms: {fileID: 1419868042}
-  CursorOffHolograms: {fileID: 1419868041}
---- !u!1001 &1894611817
-=======
   mWorldCenterMode: 2
   mWorldCenter: {fileID: 0}
 --- !u!81 &1126146155
@@ -1299,108 +955,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
---- !u!1 &1215667963
-=======
 --- !u!1 &1256957321
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  - component: {fileID: 1215667967}
-  - component: {fileID: 1215667966}
-  - component: {fileID: 1215667965}
-  - component: {fileID: 1215667964}
-  - component: {fileID: 1215667969}
-  - component: {fileID: 1215667968}
-  m_Layer: 0
-  m_Name: Cube
-=======
   - component: {fileID: 1256957322}
   - component: {fileID: 1256957325}
   - component: {fileID: 1256957324}
   - component: {fileID: 1256957323}
   m_Layer: 5
   m_Name: Canvas
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_IsActive: 0
---- !u!23 &1215667964
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1215667963}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &1215667965
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1215667963}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &1215667966
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1215667963}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1215667967
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1215667963}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.26, y: -0.61, z: -3.76}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1215667968
-=======
   m_IsActive: 1
 --- !u!224 &1256957322
 RectTransform:
@@ -1422,23 +993,10 @@ RectTransform:
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256957323
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_GameObject: {fileID: 1215667963}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bbbcc0659b76834d8aa5ea5524b6c00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RotationSensitivity: 10
-  manipulator: {fileID: 0}
-  root: {fileID: 0}
---- !u!114 &1215667969
-=======
   m_GameObject: {fileID: 1256957321}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1451,20 +1009,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
 --- !u!114 &1256957324
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_GameObject: {fileID: 1215667963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f1efafb4e5a9a346ab63a4e76d0a3e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TargetFeedbackSound: {fileID: 0}
-=======
   m_GameObject: {fileID: 1256957321}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1501,7 +1049,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 --- !u!1 &1280459080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,117 +1091,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_RootOrder: 8
-=======
   m_RootOrder: 5
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
---- !u!1001 &1419868039
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-=======
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 461510, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 10805158, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 154906, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000014209390872, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2308126, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23000012823670630, guid: dcfff29e15ef0304dbfabcb30a37ad97,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 196258, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 196258, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 129746, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 154906, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000014209390872, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 150760, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_IsPrefabParent: 0
---- !u!1 &1419868040 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 196258, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!1 &1419868041 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 150760, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!1 &1419868042 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 129746, guid: dcfff29e15ef0304dbfabcb30a37ad97, type: 2}
-  m_PrefabInternal: {fileID: 1419868039}
---- !u!114 &1419868043
-=======
 --- !u!1 &1281671935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1755,7 +1193,6 @@ GameObject:
   - component: {fileID: 1346245766}
   - component: {fileID: 1346245765}
   - component: {fileID: 1346245764}
-  - component: {fileID: 1346245763}
   m_Layer: 0
   m_Name: Waypoint0
   m_TagString: Untagged
@@ -1770,35 +1207,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1346245761}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.176, z: -0.00999999}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children:
   - {fileID: 1256957322}
-  m_Father: {fileID: 327937693}
+  m_Father: {fileID: 1977830197}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1346245763
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_GameObject: {fileID: 1419868040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a984c5ce459484c47ba6fdd693deb782, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CursorOnHolograms: {fileID: 1419868042}
-  CursorOffHolograms: {fileID: 1419868041}
-=======
-  m_GameObject: {fileID: 1346245761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76a9e65b603b64749bd2cc5cb5991383, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1346245764
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1852,7 +1267,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1346245761}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 --- !u!1 &1511480365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,8 +1328,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 141744f315c2ef64285afcbf22d67000, type: 3}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-=======
 --- !u!1 &1696754391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2009,7 +1421,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
 --- !u!1 &1803327606
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,100 +1494,43 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.872
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalPosition.y
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-=======
       value: -0.12921615
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalPosition.z
       value: 0.52005196
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_RootOrder
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-      value: 7
-=======
-      value: 9
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-=======
       value: 6
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
       objectReference: {fileID: 0}
     - target: {fileID: 1917820655083642, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 23773162217160538, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0d5c04b5afe673a438ef7b5fa4ce9d5e, type: 2}
-    - target: {fileID: 23773162217160538, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8d4d34173a2bdeb44a4d3314fe0eaf59, type: 2}
-    - target: {fileID: 23017129440842832, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
-    - target: {fileID: 23121607318657172, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
-    - target: {fileID: 23066038108003984, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8ba12bf8d36a9224b89518fa983b441d, type: 2}
-    - target: {fileID: 23697084835989682, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 8ba12bf8d36a9224b89518fa983b441d, type: 2}
-    - target: {fileID: 23129241469416928, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
     - target: {fileID: 23957804061746666, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
-    - target: {fileID: 23309796425239880, guid: 7b27a74ada9b543469ed67d6b71d64f7,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2185,19 +1539,56 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
+      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
+    - target: {fileID: 23129241469416928, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
       objectReference: {fileID: 2100000, guid: 8ba12bf8d36a9224b89518fa983b441d, type: 2}
+    - target: {fileID: 23309796425239880, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
+    - target: {fileID: 23121607318657172, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ba12bf8d36a9224b89518fa983b441d, type: 2}
+    - target: {fileID: 23017129440842832, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ba12bf8d36a9224b89518fa983b441d, type: 2}
+    - target: {fileID: 23697084835989682, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
+    - target: {fileID: 23066038108003984, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b731667f9fa0f9e48b7e90f4e6b08296, type: 2}
+    - target: {fileID: 23773162217160538, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 25ea3d5a7177c774abeeba0f0ecf8dc7, type: 2}
     - target: {fileID: 23471131237834448, guid: 7b27a74ada9b543469ed67d6b71d64f7,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0d5c04b5afe673a438ef7b5fa4ce9d5e, type: 2}
+      objectReference: {fileID: 2100000, guid: 25ea3d5a7177c774abeeba0f0ecf8dc7, type: 2}
     - target: {fileID: 23471131237834448, guid: 7b27a74ada9b543469ed67d6b71d64f7,
         type: 2}
       propertyPath: m_Materials.Array.data[1]
       value: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-      objectReference: {fileID: 2100000, guid: 8d4d34173a2bdeb44a4d3314fe0eaf59, type: 2}
-=======
+      objectReference: {fileID: 2100000, guid: 795aee3eda8351543bfda48869f3f567, type: 2}
+    - target: {fileID: 23773162217160538, guid: 7b27a74ada9b543469ed67d6b71d64f7,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
       objectReference: {fileID: 2100000, guid: 795aee3eda8351543bfda48869f3f567, type: 2}
     - target: {fileID: 1196998523021702, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
       propertyPath: m_IsActive
@@ -2367,7 +1758,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7b27a74ada9b543469ed67d6b71d64f7, type: 2}
   m_IsPrefabParent: 0
@@ -2399,65 +1789,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3989c73151670447aed69a605b05315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  TargetFeedbackSound: {fileID: 0}
---- !u!4 &1894611821 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4954324457835386, guid: 7b27a74ada9b543469ed67d6b71d64f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1894611817}
---- !u!1 &1901498980
-GameObject:
-=======
   RotationSensitivity: 10
 --- !u!114 &1894611822
 MonoBehaviour:
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1894611818}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8447ef6120bd5844abcea80ee98f4066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1942229523
+GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 1901498982}
-  - component: {fileID: 1901498981}
+  - component: {fileID: 1942229528}
+  - component: {fileID: 1942229527}
+  - component: {fileID: 1942229526}
+  - component: {fileID: 1942229525}
+  - component: {fileID: 1942229524}
   m_Layer: 0
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_Name: kinect2_linkPivot
-=======
-  m_Name: Waypoint0
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
-=======
   m_Name: Waypoint0_
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_IsActive: 1
---- !u!114 &1901498981
-=======
   m_IsActive: 0
 --- !u!114 &1942229524
->>>>>>> waypointplace2:Assets/Scenes/Movo.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1901498980}
+  m_GameObject: {fileID: 1942229523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c02437657c6fdaf40858edb1d39981b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 76a9e65b603b64749bd2cc5cb5991383, type: 3}
   m_Name: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
   m_EditorClassIdentifier: 
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  framerate: 100
-  compression: none
-  Material: {fileID: 2100000, guid: 57787101083a5494499757b2f13085cc, type: 2}
---- !u!4 &1901498982
-=======
 --- !u!23 &1942229525
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2512,147 +1885,10 @@ MeshFilter:
   m_GameObject: {fileID: 1942229523}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1942229528
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD:Assets/Scenes/RvizVisualization.unity
-  m_GameObject: {fileID: 1901498980}
-  m_LocalRotation: {x: -0.6018987, y: -0.39006215, z: -0.5519251, w: 0.42538005}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: -1}
-  m_Children: []
-  m_Father: {fileID: 1894611821}
-  m_RootOrder: 61
-  m_LocalEulerAnglesHint: {x: -109.5, y: -85.04, z: 0}
-=======
-  serializedVersion: 8
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 6
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 4
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200020001000300
-  m_Skin: []
-  m_VertexData:
-    m_CurrentChannels: 11
-    m_VertexCount: 4
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshOptimized: 0
->>>>>>> calibration works:Assets/Scenes/HololensVisualization.unity
-=======
   m_GameObject: {fileID: 1942229523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 1.978}
@@ -2662,7 +1898,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> can place waypoints:Assets/Scenes/Movo.unity
+--- !u!1 &1977830193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1977830197}
+  - component: {fileID: 1977830196}
+  - component: {fileID: 1977830195}
+  - component: {fileID: 1977830194}
+  - component: {fileID: 1977830198}
+  m_Layer: 0
+  m_Name: Movo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &1977830194
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977830193}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1977830195
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977830193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1977830196
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977830193}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1977830197
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977830193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1346245762}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977830198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1977830193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd0e53a7be194042a189da16386e18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2099256439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,7 +2029,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2099256441
 MonoBehaviour:
