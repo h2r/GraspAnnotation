@@ -7,6 +7,11 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+<<<<<<< HEAD:Assets/Models/Cursor/CursorHand.fbx.meta
+=======
+    2100000: Material_001
+    2100002: Material_001_005
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/movo_body/movo_mid_body.dae.meta
     2300000: //RootNode
     3300000: //RootNode
     4300000: cursor_sizeNorthSouth_ring_interaction

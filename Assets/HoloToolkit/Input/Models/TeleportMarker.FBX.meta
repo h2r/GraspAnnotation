@@ -5,6 +5,7 @@ licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Models/TeleportMarker.FBX.meta
     100000: Arrow
     100002: Marker_Ring002
     100004: Marker_Ring003
@@ -27,6 +28,19 @@ ModelImporter:
     4300002: Marker_Ring002
     4300004: Marker_Ring003
     4300006: Arrow
+=======
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material
+    2100002: Material_001
+    2100004: Material_002
+    2100006: Material_003
+    2100008: Material_001_002
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: finger_knuckle2
+  externalObjects: {}
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/manipulation/kinova_grippers/visual/finger_knuckle.dae.meta
   materials:
     importMaterials: 0
     materialName: 0

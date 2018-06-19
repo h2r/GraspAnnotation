@@ -7,6 +7,13 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+<<<<<<< HEAD:Assets/Models/Cursor/CursorPathing.fbx.meta
+=======
+    2100000: Material
+    2100002: Material_001
+    2100004: Material_011
+    2100006: Material_001_010
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/sensors/visual/sick_tim.dae.meta
     2300000: //RootNode
     3300000: //RootNode
     4300000: js_scroll_i

@@ -7,6 +7,13 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+<<<<<<< HEAD:Assets/Models/Cursor/CursorRing.fbx.meta
+=======
+    2100000: Material
+    2100002: Material_004
+    2100004: Material_008
+    2100006: Material_004_006
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/pan_tilt/visual/pan_link.dae.meta
     2300000: //RootNode
     3300000: //RootNode
     4300000: ring_interaction_geo

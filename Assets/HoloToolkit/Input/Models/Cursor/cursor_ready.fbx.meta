@@ -5,6 +5,7 @@ licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Models/Cursor/cursor_ready.fbx.meta
     100000: cursor_cross_root
     100002: Cursor_Joystick
     100004: //RootNode
@@ -36,6 +37,18 @@ ModelImporter:
     2300000: ring_interaction_geo
     3300000: ring_interaction_geo
     4300000: ring_interaction_geo
+=======
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material
+    2100002: Material_001
+    2100004: Material_002
+    2100006: Material_001_001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: finger_tip2
+  externalObjects: {}
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/manipulation/kinova_grippers/visual/finger_tip.dae.meta
   materials:
     importMaterials: 1
     materialName: 0

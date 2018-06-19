@@ -7,6 +7,11 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
+<<<<<<< HEAD:Assets/Models/Cursor/CursorArrow.fbx.meta
+=======
+    2100000: Material
+    2100002: Material_010
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/pan_tilt/visual/tilt_link.dae.meta
     2300000: //RootNode
     3300000: //RootNode
     4300000: cursor_arrow

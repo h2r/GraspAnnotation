@@ -5,6 +5,7 @@ licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Models/Cursor/cursor_hand_ready.fbx.meta
     100000: cursor_cross_root
     100002: //RootNode
     100004: Cursor_Ring
@@ -26,6 +27,28 @@ ModelImporter:
     2300000: cursor_sizeNorthSouth_ring_interaction
     3300000: cursor_sizeNorthSouth_ring_interaction
     4300000: cursor_sizeNorthSouth_ring_interaction
+=======
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material_001
+    2100002: Material_010
+    2100004: Material_011
+    2100006: Material
+    2100008: Material_002
+    2100010: Material_003
+    2100012: Material_004
+    2100014: Material_005
+    2100016: Material_001_008
+    2100018: Material_007
+    2100020: Material_002_004
+    2100022: Material_003_003
+    2100024: Material_004_005
+    2100026: Material_005_002
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: vector_base
+  externalObjects: {}
+>>>>>>> decimated meshes by ~90%:Assets/Urdf/movo/movo_description/meshes/movo_components/visual/vector_base.dae.meta
   materials:
     importMaterials: 1
     materialName: 0
