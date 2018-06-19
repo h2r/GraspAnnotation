@@ -1,15 +1,51 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
 --- !u!1 &107458
+=======
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1417598012052260}
+  m_IsPrefabParent: 1
+--- !u!1 &1117351654330242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4437493505399210}
+  - component: {fileID: 33906948259815750}
+  - component: {fileID: 23038412656304688}
+  m_Layer: 0
+  m_Name: arm_half_2_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1417598012052260
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
   - component: {fileID: 422918}
   - component: {fileID: 2384068}
   - component: {fileID: 10203534}
+=======
+  - component: {fileID: 4609804645386444}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
   m_Layer: 0
   m_Name: label
   m_TagString: Untagged
@@ -17,6 +53,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
 --- !u!1 &130904
 GameObject:
   m_ObjectHideFlags: 0
@@ -65,10 +102,14 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &438134
+=======
+--- !u!4 &4437493505399210
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
   m_GameObject: {fileID: 130904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -79,15 +120,31 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &468184
+=======
+  m_GameObject: {fileID: 1117351654330242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4609804645386444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4609804645386444
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
   m_GameObject: {fileID: 132282}
+=======
+  m_GameObject: {fileID: 1417598012052260}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
   - {fileID: 438134}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -124,11 +181,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
 --- !u!23 &2384068
+=======
+  - {fileID: 4437493505399210}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23038412656304688
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
   m_GameObject: {fileID: 107458}
+=======
+  m_GameObject: {fileID: 1117351654330242}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -154,6 +222,7 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Prefabs/Buttons/ObjectButton.prefab
 --- !u!33 &3318114
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -251,3 +320,12 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 132282}
   m_IsPrefabParent: 1
+=======
+--- !u!33 &33906948259815750
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1117351654330242}
+  m_Mesh: {fileID: 4300000, guid: 2e8be600d53853f4ca6632068488d466, type: 2}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/manipulation/jaco/collision/arm_half_2.prefab

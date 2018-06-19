@@ -9,31 +9,50 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_RootGameObject: {fileID: 1000010024638574}
   m_IsPrefabParent: 1
 --- !u!1 &1000010024638574
+=======
+  m_RootGameObject: {fileID: 1767666619271410}
+  m_IsPrefabParent: 1
+--- !u!1 &1009698544610212
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   - component: {fileID: 4000013243965410}
   - component: {fileID: 114000011803902180}
   m_Layer: 2
   m_Name: CursorWithFeedback
+=======
+  - component: {fileID: 4678074743216850}
+  - component: {fileID: 33032549716213104}
+  - component: {fileID: 23255341719989640}
+  m_Layer: 0
+  m_Name: tilt_link_0
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!1 &1000010093781024
+=======
+--- !u!1 &1057573164074454
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   - component: {fileID: 4000012440933642}
   - component: {fileID: 33000010851415662}
   - component: {fileID: 23000011644528258}
@@ -70,12 +89,23 @@ GameObject:
   - component: {fileID: 114000010331726594}
   m_Layer: 2
   m_Name: PressedFeedbackParent
+=======
+  - component: {fileID: 4825161688261650}
+  - component: {fileID: 33982255700774140}
+  - component: {fileID: 23822288714880838}
+  m_Layer: 0
+  m_Name: tilt_link_1
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!1 &1188644988713234
+=======
+--- !u!1 &1767666619271410
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -99,32 +129,51 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   - component: {fileID: 4655523389939946}
   m_Layer: 2
   m_Name: HandDetectedFeedback
+=======
+  - component: {fileID: 4130855972122266}
+  m_Layer: 0
+  m_Name: tilt_link
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!1 &1692019640059370
+=======
+--- !u!1 &1882126333636682
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   - component: {fileID: 4175304816852270}
   - component: {fileID: 33593290910560480}
   - component: {fileID: 23766520316925226}
   - component: {fileID: 114076802276583352}
   m_Layer: 2
   m_Name: CursorOnHolograms
+=======
+  - component: {fileID: 4927439357854002}
+  - component: {fileID: 33796848434525796}
+  - component: {fileID: 23207358437436366}
+  m_Layer: 0
+  m_Name: tilt_link_2
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!1 &1744576705019378
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,10 +221,14 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000012440933642
+=======
+--- !u!4 &4130855972122266
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1000010093781024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0017081683, y: 0.001378314, z: 0.0027336478}
@@ -185,10 +238,25 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013243965410
+=======
+  m_GameObject: {fileID: 1767666619271410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4678074743216850}
+  - {fileID: 4825161688261650}
+  - {fileID: 4927439357854002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4678074743216850
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1000010024638574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -202,10 +270,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000013324006586
+=======
+  m_GameObject: {fileID: 1009698544610212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4130855972122266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4825161688261650
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1000011258900396}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.01}
@@ -216,10 +296,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4014551101990556
+=======
+  m_GameObject: {fileID: 1057573164074454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4130855972122266}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4927439357854002
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1879782099030682}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -317,11 +409,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23766520316925226
+=======
+  m_GameObject: {fileID: 1882126333636682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4130855972122266}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23207358437436366
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1692019640059370}
+=======
+  m_GameObject: {fileID: 1882126333636682}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -350,12 +457,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!23 &23787470340576556
+=======
+--- !u!23 &23255341719989640
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
   m_GameObject: {fileID: 1188644988713234}
+=======
+  m_GameObject: {fileID: 1009698544610212}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -384,6 +499,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD:Assets/HoloToolkit/Input/Prefabs/Cursor/CursorWithFeedback.prefab
 --- !u!33 &33000010851415662
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -516,3 +632,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotAxis: 0
+=======
+--- !u!23 &23822288714880838
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1057573164074454}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33032549716213104
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1009698544610212}
+  m_Mesh: {fileID: 4300000, guid: 8689e778af744c04592976760848e853, type: 2}
+--- !u!33 &33796848434525796
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1882126333636682}
+  m_Mesh: {fileID: 4300000, guid: 719e4e546722f414ebad14df33c5dc39, type: 2}
+--- !u!33 &33982255700774140
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1057573164074454}
+  m_Mesh: {fileID: 4300000, guid: e59c8cace2fe9384fb357b2e345991ea, type: 2}
+>>>>>>> refactored code works!:Assets/Urdf/movo/movo_description/meshes/pan_tilt/collision/tilt_link.prefab

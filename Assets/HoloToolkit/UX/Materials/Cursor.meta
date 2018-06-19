@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: a924f6d47e5f47d46b69a754b40098fc
 folderAsset: yes
+<<<<<<< HEAD:Assets/HoloToolkit/UX/Materials/Cursor.meta
 timeCreated: 1507308635
+=======
+timeCreated: 1529413948
+>>>>>>> refactored code works!:Assets/Urdf/movo.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
