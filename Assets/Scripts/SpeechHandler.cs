@@ -45,6 +45,14 @@ namespace HoloToolkit.Unity {
                     Debug.Log("Transitioned to label state");
                     StateManager.Instance.TransitionToLabelState();
                     break;
+                case "transition grasping":
+                    if (!StateManager.Instance.RobotCalibrated)
+                    {
+                        return;
+                    }
+                    Debug.Log("Transitioned to label state");
+                    StateManager.Instance.TransitionToGraspingState();
+                    break;
                 case "transition puppet":
                     if (!StateManager.Instance.RobotCalibrated) {
                         return;
@@ -83,6 +91,9 @@ namespace HoloToolkit.Unity {
                 case StateManager.State.LabelState:
                     ParseLabelCommands(CurrentCommand);
                     break;
+                case StateManager.State.GraspingState:
+                    ParseGraspCommands(CurrentCommand);
+                    break;
             }
         }
 
@@ -95,6 +106,26 @@ namespace HoloToolkit.Unity {
                 case "calibrate":
                     MovoPlace.CalibrateMovo();
                     MapManager.Instance.CalibrateMap();
+                    break;
+            }
+        }
+
+        private void ParseGraspCommands(string command)
+        {
+            Debug.Log("Parsing Grasp Command");
+            if(StateManager.Instance.CurrentState != StateManager.State.GraspingState)
+            {
+                return;
+            }
+            switch(command)
+            {
+                case "send grasp":
+                    Debug.Log("I'm about to tell Movo to go grasp the Alexa");
+                    GraspManager.Instance.SendGrasp();
+                    break;
+                case "new grasp point":
+                    Debug.Log("Generating a new gripper");
+                    GraspManager.Instance.NewEE();
                     break;
             }
         }
