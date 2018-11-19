@@ -114,20 +114,20 @@ namespace HoloToolkit.Unity {
                 return;
             }
             wsc.Publish(movoPoseRequestTopic, ""); // if bug, change to "True"
-            //Debug.Log("Published PoseRequestTopic");
+            Debug.Log("Published PoseRequestTopic");
             string ros_msg = wsc.messages[movoPoseTopic];
-            //Debug.Log("Received Pose response");
+            Debug.Log("Received Pose response");
             while (ros_msg == null) {
                 Debug.Log("Waiting for message...");
                 ros_msg = wsc.messages[movoPoseTopic];
             }
-            //Debug.Log(ros_msg);
+            Debug.Log(ros_msg);
             List<string> poseStr = new List<string>(GetROSMessage(ros_msg).Split(','));
-            //Debug.Log(poseStr);
+            Debug.Log(poseStr);
             List<float> pose = new List<float> { Convert.ToSingle(poseStr[0]), Convert.ToSingle(poseStr[1]), Convert.ToSingle(poseStr[2]) };
             Debug.Assert(pose.Count == 3);
             StateManager.Instance.MovoROSPose = new Pose(pose[0], pose[1], -pose[2]); // Unity rotation goes clockwise
-            //Debug.Log("MovoROSPose updated!");
+            Debug.Log("MovoROSPose updated!");
         }
 
         private void UpdateMovoState() {

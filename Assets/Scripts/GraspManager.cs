@@ -66,14 +66,14 @@ namespace HoloToolkit.Unity
                 {
                     number_of_grasp_points += 1;
                     print("Foreach loop: " + child);
-                    rosPos = GetCoords(); // Need to make this coordinates of each and every grasp point
+                    rosPos = GetCoords(child.transform.position); 
                     rosQuat = UnityToRosRotationAxisConversion(child.transform.rotation);
                     grasp_points += rosPos.x + " " + rosPos.y + " " + rosPos.z + " " +
                                     rosQuat.x + " " + rosQuat.y + " " + rosQuat.z + " " + rosQuat.w + "\n";
                 }
             }
 
-            graspObjectLocation = GetCoords(); // Need to make this coordinates of Alexa
+            graspObjectLocation = GetCoords(graspObject.transform.position);
             message += graspObjectLocation.x + " " + graspObjectLocation.y + " " + graspObjectLocation.z + " " + number_of_grasp_points;
             wsc.Publish(graspSaveTopic, message);
             
@@ -90,10 +90,10 @@ namespace HoloToolkit.Unity
 
         }
 
-        public Vector3 GetCoords()
+        public Vector3 GetCoords(Vector3 unityInput)
         {
             Transform robotObjTransform = GameObject.Find("Movo").transform;
-            Vector3 relativePos = robotObjTransform.InverseTransformPoint(transform.position);
+            Vector3 relativePos = robotObjTransform.InverseTransformPoint(unityInput);
             var x_coord = relativePos.z; // + StateManager.Instance.MovoROSStartPose.X;
             var y_coord = -relativePos.x; // + StateManager.Instance.MovoROSStartPose.Y;
             var z_coord = relativePos.y - StateManager.Instance.FloorY;
