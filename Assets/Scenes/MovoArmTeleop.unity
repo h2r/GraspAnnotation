@@ -730,6 +730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ee: {fileID: 76470624}
   graspObject: {fileID: 177161604}
+  first_ee_generated: 0
 --- !u!1 &35551351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1677,15 +1678,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4784271561951328, guid: 10eeef5ccc9236c41a1e59a0d19e42b3, type: 2}
       propertyPath: m_LocalScale.x
-      value: 666.65704
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4784271561951328, guid: 10eeef5ccc9236c41a1e59a0d19e42b3, type: 2}
       propertyPath: m_LocalScale.y
-      value: 666.66675
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4784271561951328, guid: 10eeef5ccc9236c41a1e59a0d19e42b3, type: 2}
       propertyPath: m_LocalScale.z
-      value: 666.6838
+      value: 400
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10eeef5ccc9236c41a1e59a0d19e42b3, type: 2}
@@ -3216,15 +3217,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d71d52bca63401c44af17afeef944797, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0015
+      value: 0.0023
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d71d52bca63401c44af17afeef944797, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0015
+      value: 0.0023
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d71d52bca63401c44af17afeef944797, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0015
+      value: 0.0023
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: d71d52bca63401c44af17afeef944797, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3255,6 +3256,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: d71d52bca63401c44af17afeef944797,
     type: 3}
   m_PrefabInternal: {fileID: 177161603}
+--- !u!114 &177161607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177161604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb034688bcf84b4bb52b3a3310868c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hostTransform: {fileID: 0}
+  boundingBoxPrefab: {fileID: 0}
+  manipulationMode: 2
+  rotationConstraint: 0
+  enableOneHandMovement: 1
 --- !u!1 &183940687
 GameObject:
   m_ObjectHideFlags: 0
@@ -13959,7 +13976,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1076598913}
-  - component: {fileID: 1076598915}
   - component: {fileID: 1076598914}
   m_Layer: 0
   m_Name: WebsocketClient
@@ -13990,17 +14006,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 204b4f1ff68300b48ab088c8c8c06c8c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1076598915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1076598912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c87cbec29e6a1454d9fc5bfa3ef35244, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1077927183
@@ -26673,7 +26678,7 @@ BoxCollider:
   m_GameObject: {fileID: 2132092019}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.70809317, y: 1.1737356, z: 0.972193}
   m_Center: {x: -0.013897598, y: 0.55942845, z: 0.013903499}

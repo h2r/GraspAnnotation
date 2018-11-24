@@ -21,6 +21,7 @@ namespace HoloToolkit.Unity
         private UniversalWebsocketClient wsc;
         private readonly string graspSaveTopic = "holocontrol/grasp";
         private readonly string placeSaveTopic = "holocontrol/place_save";
+        public Boolean first_ee_generated = false;
         
         // Use this for initialization
         void Start()
@@ -28,9 +29,9 @@ namespace HoloToolkit.Unity
             Debug.Log("GraspManager Awake()");
             GameObject wso = GameObject.Find("WebsocketClient");
             graspObject.SetActive(false);
-            
+
 #if UNITY_EDITOR
-        wsc = wso.GetComponent<WebsocketClient>();
+            wsc = wso.GetComponent<WebsocketClient>();
             #else
                     wsc = wso.GetComponent<UWPWebSocketClient>();
             #endif
@@ -41,13 +42,21 @@ namespace HoloToolkit.Unity
         public void NewEE()
         {
             Debug.Log("Gripper Generated");
-            
 
-            Vector3 go = graspObject.transform.position;
-            go.y += 1;
-
-            GameObject instance = (GameObject)Instantiate(ee, go, this.transform.rotation);
-            instance.transform.parent = graspObject.transform;
+            if(!first_ee_generated) {
+                graspObject.SetActive(true);
+                ee.transform.parent = graspObject.transform;
+                first_ee_generated = true;
+            }
+            else
+            {
+                Vector3 go = graspObject.transform.position;
+                go.y += 0.5f;
+                GameObject instance = (GameObject)Instantiate(ee, go, this.transform.rotation);
+                instance.SetActive(true);
+                instance.transform.localScale = new Vector3(0.85f, 0.85f, 0.85f);
+                instance.transform.parent = graspObject.transform;
+            }
         }
 
         public void SendGrasp()
@@ -74,7 +83,9 @@ namespace HoloToolkit.Unity
             }
 
             graspObjectLocation = GetCoords(graspObject.transform.position);
-            message += graspObjectLocation.x + " " + graspObjectLocation.y + " " + graspObjectLocation.z + " " + number_of_grasp_points;
+            Debug.Log(grasp_points);
+            message += graspObjectLocation.x + " " + graspObjectLocation.y + " " + graspObjectLocation.z + " " + number_of_grasp_points + "\n" + grasp_points;
+            Debug.Log(message);
             wsc.Publish(graspSaveTopic, message);
             
 

@@ -1,32 +1,27 @@
 fileFormatVersion: 2
-guid: 05c4367217d78d741a8dc9a92553e85a
+guid: dcf0e92481086d94db1102a275d4c9d0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Arrow
-    100002: Marker_Ring002
-    100004: Marker_Ring003
-    100006: Marker_Ring01
-    100008: //RootNode
-    400000: Arrow
-    400002: Marker_Ring002
-    400004: Marker_Ring003
-    400006: Marker_Ring01
-    400008: //RootNode
-    2100000: TeleportMarker
-    2300000: Arrow
-    2300002: Marker_Ring002
-    2300004: Marker_Ring003
-    2300006: Marker_Ring01
-    3300000: Arrow
-    3300002: Marker_Ring002
-    3300004: Marker_Ring003
-    3300006: Marker_Ring01
-    4300000: Marker_Ring01
-    4300002: Marker_Ring002
-    4300004: Marker_Ring003
-    4300006: Arrow
-    9500000: //RootNode
+    100000: //RootNode
+    400000: //RootNode
+    2100000: Material_001
+    2100002: Material_010
+    2100004: Material_011
+    2100006: Material
+    2100008: Material_002
+    2100010: Material_003
+    2100012: Material_004
+    2100014: Material_005
+    2100016: Material_001_008
+    2100018: Material_007
+    2100020: Material_002_004
+    2100022: Material_003_003
+    2100024: Material_004_005
+    2100026: Material_005_002
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: vector_base
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -63,14 +58,14 @@ ModelImporter:
     addColliders: 0
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
-    weldVertices: 0
+    weldVertices: 1
     preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -78,8 +73,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.0254
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -104,7 +99,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

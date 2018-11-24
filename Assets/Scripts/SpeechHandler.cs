@@ -50,7 +50,7 @@ namespace HoloToolkit.Unity {
                     {
                         return;
                     }
-                    Debug.Log("Transitioned to label state");
+                    Debug.Log("Transitioned to grasping state");
                     StateManager.Instance.TransitionToGraspingState();
                     break;
                 case "transition puppet":
